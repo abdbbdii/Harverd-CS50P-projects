@@ -1,0 +1,3 @@
+hi
+hi
+lines/invalid_extension.txt
