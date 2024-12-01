@@ -12,11 +12,12 @@ def main():
             reader = csv.reader(file)
             for row in reader:
                 table.append(row)
-        print(table)
         print(tabulate(table, headers="firstrow", tablefmt="grid"))
+
     except FileNotFoundError:
         sys.exit("File does not exist")
-        
+
+
 def sysMinMax(n):
     try:
         if len(sys.argv) != n:
